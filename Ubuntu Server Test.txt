@@ -1,0 +1,8 @@
+enp0s3
+DHCPv4
+10.0.2.15/24
+
+GitHub:
+	Email: automate@qualificarti.com.br
+	Username: QualificarTI
+	Senha: qti32023002
