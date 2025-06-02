@@ -1,0 +1,75 @@
+
+========================
+🧙‍♂️ VIM CHEATSHEET (TXT)
+========================
+
+🎮 MODES
+----------------------------------
+i         - Insert mode (start typing)
+Esc       - Normal mode (command mode)
+:         - Command-line mode (e.g., :wq)
+v         - Visual mode (select text)
+R         - Replace mode (overwrite text)
+
+💾 SAVE & EXIT
+----------------------------------
+:w         - Save
+:q         - Quit
+:wq or ZZ  - Save and quit
+:q!        - Quit without saving
+:w file    - Save as another file
+
+🧭 MOVING AROUND
+----------------------------------
+h j k l    - Left, down, up, right
+w / b      - Next / previous word
+0 / ^      - Line start / first character
+$          - End of line
+G          - Go to end of file
+gg         - Go to beginning of file
+:n         - Go to line n
+
+✏️ EDITING
+----------------------------------
+i          - Insert before cursor
+a          - Append after cursor
+o / O      - New line below / above
+x          - Delete character
+dd         - Delete line
+yy         - Copy (yank) line
+p / P      - Paste below / above
+u          - Undo
+Ctrl + r   - Redo
+
+🔍 SEARCH & REPLACE
+----------------------------------
+/word         - Search forward for "word"
+n / N         - Next / previous match
+:%s/foo/bar/g - Replace all "foo" with "bar"
+:%s/foo/bar/gc- Replace with confirmation
+
+🪄 VISUAL MODE
+----------------------------------
+v            - Select characters
+V            - Select whole lines
+Ctrl + v     - Block (column) select
+y / d        - Yank / delete selection
+
+🧠 USEFUL EXTRAS
+----------------------------------
+:set number       - Show line numbers
+:syntax on        - Syntax highlighting
+:set tabstop=4    - Tab size = 4 spaces
+:e filename       - Open another file
+:vsp filename     - Vertical split file
+:term             - Terminal in Vim
+
+🧰 BASIC .vimrc (PYTHON-FRIENDLY)
+----------------------------------
+set number
+syntax on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set clipboard=unnamedplus
